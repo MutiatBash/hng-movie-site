@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState, useContext, useEffect } from "react";
 import { FetchMovieData } from "../useApi";
 import { Button } from "./button";
-import list from "../assets/list.svg";
+// import list from "../assets/list.svg";
 import { MovieContext } from "../movieContext";
 import { Sidebar } from "./sidebar";
 
