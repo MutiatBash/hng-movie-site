@@ -12,10 +12,8 @@ function App() {
     
     <Router>
     <Routes>
-   
      <Route exact path="/" element={<Home/>} />
      <Route  path="/movie/:id" element={<MovieDetails/>} />
-
     </Routes>
     </Router>
   );

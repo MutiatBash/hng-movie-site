@@ -71,7 +71,7 @@ export const MovieDetails = ({}) => {
                   </p>
                 </div>
                 <div className="flex justify-between text-sm gap-2">
-                  <p>{movieDetails?.vote_average.toFixed(2)}</p>
+                  <p>{movieDetails?.vote_average?.toFixed(2)}</p>
                   <p>|</p>
                   <p>350k</p>
                 </div>
